@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+    /*
+    PROBLEMA: VOGAL
+    Construa um programa que leia um caractere e informe se este caractere é uma vogal.
+    */
+
+    //ENTRADA
+
+    const letra = prompt(`Informe uma letra`).toUpperCase();
+
+    //PROCESSAMENTO
+
+    let mensagem = "";
+    (letra == "A" || letra == "E" || letra == "I" || letra == "O" || letra == "U") ? mensagem = `Sua letra é uma vogal` : mensagem = `sua letra é uma consoante`;
+
+    //SAÍDA
+
+    document.write(mensagem);
+
+</script>
